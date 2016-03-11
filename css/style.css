@@ -1,0 +1,41 @@
+body {
+  background: #FAF6FF; 
+}
+
+header, main, footer {
+  min-width: 700px;
+}
+
+header, footer {
+  padding: 10px 0;
+  color: #FAF6FF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.57);
+}
+
+header {
+  background: linear-gradient(rgb(92, 24, 157), rgb(107, 68, 172));
+  text-align: center;
+  height: 100px;
+  box-shadow: 0px -4px 17px rgba(0, 0, 0, 0.92);
+}
+
+footer {
+  background: linear-gradient(rgb(107, 68, 172), rgb(92, 24, 157));
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.92);
+}
+
+h1 {
+  font-family: 'Signika', sans-serif;
+}
+
+section {
+  padding: 15px;
+  background: white;
+  margin: 20px 0;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+}
