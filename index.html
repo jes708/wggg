@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <title>The World's Greatest Guessing Game™</title>
 
+    <!-- fonts -->
     <link href='https://fonts.googleapis.com/css?family=Signika:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     
     <!-- normalize CSS -->
     <link rel="stylesheet" href="css/normalize.css">
@@ -23,12 +25,26 @@
   <body>
     <header>
       <div class="container">
-        <h1>The World's Greatest Guessing Game™</h1>
+        <h1 class="center">The World's Greatest Guessing Game™</h1>
       </div>
     </header>
     <main class="container">
       <section>
-        <p>Congratulations!  You have joined an elite class of ladies and gentlemen who have had the good fortune of stumbling upon The World's Greatest Guessing Game™!  To get started, enter a number into the input box, and try to guess what number I am thinking of.  If you guess correctly, you will win one of The World's Greatest Guessing Game™'s World's Greatest Prizes®!</p>
+        <h2>Where am I?</h2>
+        <p>Congratulations! You have joined an elite class of ladies and gentlemen who have had the good fortune of stumbling upon <strong>The World's Greatest Guessing Game™!</strong> To get started, enter a number into the input box, and try to guess what number I am thinking of.  If you guess correctly, you will win one of <strong>The World's Greatest Guessing Game™'s World's Greatest Prizes®!</strong></p>
+      </section>
+      <section class="clearfix">
+        <h2 class="center">Your Whole Life has been Leading Up to This Moment...</h2>
+        <div class="center-scrunch">
+          <div class="input-group">
+            <input type="text" placeholder="Enter a number between 1 and 100" class="input-lg form-control">
+          </div>
+          <div class="input-group-btn">
+            <button type="button" id="playersGuess" onclick="doesNumberToGuessExist()" class="btn btn-lg btn-secondary btn-danger">Submit Guess</button>
+          </div>
+            <button type="button" id="playAgain" onclick="doesNumberToGuessExist()" class="btn btn-lg btn-secondary">Play Again</button>
+            <button type="button" id="Hint" onclick="doesNumberToGuessExist()" class="btn btn-lg btn-secondary">Hint</button>
+        </div>
       </section>
     </main>
     <footer>
