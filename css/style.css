@@ -52,7 +52,7 @@ section {
 
 .center-scrunch {
   width: 525px;
-  margin: 0 auto;
+  margin: 15px auto;
 }
 
 .input-group {
@@ -61,4 +61,13 @@ section {
 
 .center {
   text-align: center;
+}
+
+#aux-btns {
+  width: 250px;
+  margin: 15px auto;
+}
+
+.btn-spacer {
+  margin-left: 10px;
 }

@@ -40,10 +40,12 @@
             <input type="text" placeholder="Enter a number between 1 and 100" class="input-lg form-control">
           </div>
           <div class="input-group-btn">
-            <button type="button" id="playersGuess" onclick="doesNumberToGuessExist()" class="btn btn-lg btn-secondary btn-danger">Submit Guess</button>
+            <button type="button" id="playersGuess" onclick="doesNumberToGuessExist()" class="btn btn-lg btn-secondary btn-danger btn-spacer">Submit Guess</button>
           </div>
-            <button type="button" id="playAgain" onclick="doesNumberToGuessExist()" class="btn btn-lg btn-secondary">Play Again</button>
-            <button type="button" id="Hint" onclick="doesNumberToGuessExist()" class="btn btn-lg btn-secondary">Hint</button>
+          <div id="aux-btns">
+            <button type="button" id="playAgain" onclick="doesNumberToGuessExist()" class="btn btn-lg btn-secondary btn-success">Play Again</button>
+            <button type="button" id="Hint" onclick="doesNumberToGuessExist()" class="btn btn-lg btn-secondary btn-warning">Hint</button>
+          </div>
         </div>
       </section>
     </main>
