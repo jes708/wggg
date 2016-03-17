@@ -1,5 +1,6 @@
-body {
+html, body {
   background: #FAF6FF; 
+  height: 100%
 }
 
 header, main, footer {
@@ -18,26 +19,44 @@ header {
   box-shadow: 0px -4px 17px rgba(0, 0, 0, 0.92);
 }
 
+main {
+  padding-bottom: 50px
+}
+
 footer {
   background: linear-gradient(rgb(107, 68, 172), rgb(92, 24, 157));
   height: 50px;
-  position: absolute;
   bottom: 0;
   width: 100%;
   box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.92);
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Signika', sans-serif;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 h2 {
-  color: rgb(107, 68, 172);
+  font-size: 35px;
+}
+
+h1, h3 {
+  color: rgb(107, 68, 172); 
+}
+
+h3 {
+  font-size: 30px;
+}
+
+body, p {
+  font: 18px/1.6em 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.1px;
 }
 
 p {
-  font: 18px/1.6em 'Source Sans Pro', sans-serif;
-  letter-spacing: 0.1px;
   border-left: 3px solid rgb(107, 68, 172);
   padding-left: 15px;
 }
@@ -55,6 +74,11 @@ section {
   margin: 15px auto;
 }
 
+.center-scrunch-sm {
+  width: 350px;
+  margin: 15px auto;
+}
+
 .input-group {
   display: table-cell;
 }
@@ -64,10 +88,42 @@ section {
 }
 
 #aux-btns {
-  width: 250px;
+  width: 477px;
   margin: 15px auto;
 }
 
 .btn-spacer {
   margin-left: 10px;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+
+section#history {
+  width: 28%;
+  float: right;
+}
+
+section#prize {
+  width: 70%;
+  float: left;
+}
+
+#prizeImg img {
+    width: 350px;
+    height: 425px;
+}
+
+div#guessList {
+    max-height: 445px;
+    overflow: scroll;
+}
+
+#guessCount {
+  display: inline;
+  margin-left: 25px;
+  position: relative;
+  top: 5px;
 }
