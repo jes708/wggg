@@ -88,7 +88,7 @@ section {
 }
 
 #aux-btns {
-  width: 477px;
+  width: 478px;
   margin: 15px auto;
 }
 
@@ -99,6 +99,10 @@ section {
 .wrapper {
   min-height: 100%;
   margin: 0 auto -50px;
+}
+
+section#game {
+  margin-bottom: 0;
 }
 
 section#history {
