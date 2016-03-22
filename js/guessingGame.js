@@ -105,7 +105,7 @@ $(document).ready(function() {
       if (gg.guessesRemaining > 0) {
         var prize = gg.prize();
         $("#prizeImg").html("<img src='images/" + prize[1] + ".jpg'>");
-        $("#prize h3").text("The World's Greatest " + prize[0] + "®")
+        $("#prize h3").text("The World's Greatest " + prize[0])
       }
     }
   });
@@ -124,7 +124,7 @@ $(document).ready(function() {
     $("#guessCount").text("Guesses Remaining: 10");
     $("#guessList").html("");
     $("#prizeImg").html("<img src='images/mystery.jpg'>");
-    $("#prize h3").text("The World's Greatest Prize®")
+    $("#prize h3").text("The World's Greatest Prize")
   });
 
 });
