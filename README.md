@@ -1,2 +1,2 @@
-# The World's Greatest Guessing Game™
-Congratulations!  You have joined an elite class of ladies and gentlemen who have had the good fortune of stumbling upon The World's Greatest Guessing Game™!  To get started, enter a number into the input box, and try to guess what number I am thinking of.  If you guess correctly, you will win one of The World's Greatest Guessing Game™'s World's Greatest Prizes®!
+# The World's Greatest Guessing Game
+Congratulations!  You have joined an elite class of ladies and gentlemen who have had the good fortune of stumbling upon **The World's Greatest Guessing Game!**  To get started, enter a number into the input box, and try to guess what number I am thinking of.  If you guess correctly, you will win one of **The World's Greatest Guessing Game's World's Greatest Prizes!**
