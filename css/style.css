@@ -88,7 +88,7 @@ section {
 }
 
 #aux-btns {
-  width: 478px;
+  display: table;
   margin: 15px auto;
 }
 
@@ -130,4 +130,8 @@ div#guessList {
   margin-left: 25px;
   position: relative;
   top: 5px;
+}
+
+#hint {
+  margin-left: 3px;
 }
