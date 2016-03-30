@@ -63,8 +63,10 @@ GuessingGame.prototype.gameOver = function() {
 // Create a provide hint button that provides additional clues to the "Player"
 
 GuessingGame.prototype.hint = function() {
-  if (this.playersGuess === 0) {
+  if (this.guessesRemaining === 10) {
     return "C'mon, guess at least once!"
+  } else if (this.guessesRemaining === 0) {
+    return "You will never know where victory was!";
   } else {
     var range = Math.ceil(Math.abs(this.playersGuess - this.winningNumber) / 10) * 10;
     return "Victory is within " + range + " steps!";
